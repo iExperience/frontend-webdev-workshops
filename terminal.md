@@ -52,7 +52,7 @@ Go ahead and add some text to your new html file. You can then use the command '
 ```bash
 cd ..
 ```
-Using '.' in bash specifies the current directory. If you do 'cd .' nothing will happen, because you're just changing to the current directory. However each subsequent '.' specifies the directory prior (assuming it exists). Using 'cd ..' will move you back one directory. Using 'cd ...' will move you back 2 directories. Using cd .... - you get the point. Note that '.' can be used to reference the current directory for many commands other than cd!
+Using '.' in bash specifies the current directory. If you do 'cd .' nothing will happen, because you're just changing to the current directory. However each subsequent '.' specifies the directory prior (assuming it exists). Using 'cd ..' will move you back one directory. Using 'cd ../..' will move you back 2 directories. Using cd ../../.. - you get the point. Note that '.' can be used to reference the current directory for many commands other than cd!
 
 [![s7.png](https://s18.postimg.org/svhfdisrd/image.png)](https://postimg.org/image/bi74ynxg5/)
 
@@ -79,3 +79,6 @@ touch wall.js
 cp wall.js humpety/dumpety
 ```
 To move a file or directory just use the command 'mv *source* *dest*'. This moves the specified file/directory source to the desired destination path. In our example we will move the directory dumpety to be inside the directory humpety. We can also copy files or directories in a similar manner by using the command 'cp *source* *dest*'. In our example we create a file wall.js and copy it into dumpety (which remember has been moved to be inside humpety). Note that if you want to move a directory instead of a file you will have to use the -r flag, similar to what we saw with the rm command.
+
+## Other things to know
+Using tab will autocomplete! Super helpful when you don't want to type out a long file/directory name. If you ever have any questions about a command you can use 'man' which will pull up a manual of all the command-line commands and what they do. 'man *command_name*' will pull of the manual specific to the given command.
