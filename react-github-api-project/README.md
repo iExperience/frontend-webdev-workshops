@@ -25,7 +25,7 @@ Let's take a look at the code that's already there. Many of the starter files sh
 
 1. `npm install` the first time you clone this repo
 2. `npm run dev` anytime you want to start developing. This will watch your JS files and re-run webpack when there are changes
-3. `node server.js` to start the Express server that will serve the app.
+3. `PORT=3000 node server.js` to start the Express server that will serve the app.
 
 In `app.js` we have the following route structure:
 
